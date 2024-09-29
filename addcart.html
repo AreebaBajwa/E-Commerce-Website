@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./addcart.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+</head>
+<body>
+    
+  <div class="Sale">
+    <div class="Sale_box call_box">
+        <span class="material-icons-outlined">
+            call
+        </span>
+        <span>
+            +92 065789
+        </span>
+    </div>
+
+    <div class="Sale_box delivery_box">
+        <p class="delivery">Free Delivery on order above <a href="#">4000</a></p>
+    </div>
+
+    <div class="Sale_box">
+        <button class="Sign-out"><a href="./Index.html">Sign Out</a></button>
+    </div>
+</div>
+
+<div class="Navbar">
+
+  <div class="nav-box">
+    <h2 class="logo">Jewels House</h2>
+  </div>
+
+  <div class="nav-box">
+    <span onclick="myFunction()" class="material-icons-outlined">
+        menu
+        </span>  
+  </div>
+
+</div>
+<div id="menu-box">
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Product</a></li>
+    <li><a href="">Profile Setting</a></li>
+    <li><a href="">Cart</a></li>
+    <li><a href="">WishList</a></li>
+    <li><button class="close">Close</button></li>
+  </ul>
+  </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("menu-box");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Sale{
+    background-color: black;
+    display: flex;
+    height: 40px;
+    gap: 20px;
+}
+.call_box{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+.delivery_box{
+    margin: auto !important;
+    color: white;
+}
+.delivery a{
+    color: white;
+}
+.Sign-out{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    background: black;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.Sign-out:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.Sign-out a{
+    color: white;
+    text-decoration: none;
+}
+.Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.logo{
+    color: #a07458;
+    padding: 0px 50px;
+}
+#menu-box{
+    float: right;
+    margin: 0px 10px 10px 10px;
+    background-color: #a87f66;
+    height: 42vh;
+    width: 15vw;
+    border-radius: 10px;
+    display: none;
+}
+#menu-box ul{
+    list-style: none;
+    text-decoration: none;
+}
+#menu-box ul li{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#menu-box li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#menu-box li a:hover{
+    background-color:black;
+}
+.close{
+    width: 100%;
+    width: 6vh;
+    background-color: #301d11;
+    color: white;
+    padding: 10px 48%;
+    border: #301d11 1px solid;
+    border-radius: 5px;
+    font-weight: 600;
+
+}

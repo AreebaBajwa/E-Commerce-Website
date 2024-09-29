@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Sale">
+        <div class="Sale_box call_box">
+            <span class="material-icons-outlined">
+                call
+            </span>
+            <span>
+                +92 065789
+            </span>
+        </div>
+
+        <div class="Sale_box delivery_box">
+            <p class="delivery">Free Delivery on order above <a href="#">4000</a></p>
+        </div>
+
+        <div class="Sale_box">
+            <button class="Sign-out"><a href="./Index.html">Sign Out</a></button>
+        </div>
+    </div>
+
+    <div class="NavBar">
+
+        <div class="bar_box">
+            <h2>Jewels House</h2>
+        </div>
+
+        <div class="bar_box">
+            <ul class="icon_list">
+                <li><a href=""><span class="material-icons-outlined">
+                            favorite_border
+                        </span></a></li>
+                <li><a href=""><span class="material-icons-outlined">
+                            account_circle
+                        </span></a></li>
+                <li><a href="">
+                        <!-- <span class="material-icons-outlined">
+                    shopping_cartd 
+                </span> -->
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                        </svg>
+                        <span class="counter">0</span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Home-Product">
+        <p class="paragraph home">Product </p>
+        <p class="paragraph product"><a href="./homepage.html"> / Home</a></p>
+    </div>
+
+    <div class="myproduct">
+
+        <div class="productboxes filter">
+            <form action="#">
+                <h5>Filter</h5>
+                <input type="text" placeholder="Search">
+                <label for="#">Categories</label>
+                <input type="text" placeholder="categories">
+                <label for="#">Price</label>
+                <div class="Price">
+                    <input type="number" placeholder="max">
+                    <input type="number" placeholder="min">
+                </div>
+                <input type="submit" value="Apply Filters">
+            </form>
+        </div>
+
+        <div class="productboxes dresses">
+            <h2>Product List</h2>
+            <p class="show">Showing 1-10 of 100 Products</p>
+            <div class="boxes">
+
+                <!-- <div class="box" id="product" onclick="setup()">
+                    <ul class="list">
+                        <li class="head-list">#001</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href="./addcart.html"><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product1.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 001</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#002</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product2.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 002</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#003</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product4.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 003</h5>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#004</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product4.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 004</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Rupees">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list ">#005</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product5.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 005</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+
+                    <ul class="list">
+                        <li class="head-list">#006</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product6.jpg" alt=""></a>
+                    <h5 class="Name">Lorem 006</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#007</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product7.jpg" alt=""></a>
+                    <h5 class="Name">Lorem 007.</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#008</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product8.jpg" alt=""></a>
+                    <h5 class="Name">Lorem 008</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#009</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product9.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 09</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#010</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product10.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 010.</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#011</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product11.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 011</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div>
+                <div class="box" id="product">
+                    <ul class="list">
+                        <li class="head-list">#012</li>
+                        <li class="head-list heart"><a href=""><span class="material-icons-outlined">
+                                    favorite_border
+                                </span></a></li>
+                        <li class="head-list cart"><a href=""><span class="material-icons-outlined">
+                                    shopping_cart
+                                </span></a></li>
+                    </ul>
+                    <a href=""><img width="230px" height="200px" src="./Images/product12.jpg" alt="error"></a>
+                    <h5 class="Name">Lorem 012</h5>
+                    <p class="Collection">New Collection</p>
+                    <p class="Price">Rs.2000</p>
+                </div> -->
+            </div>
+
+            <p class="Pages"> . . . . <button>1</button> <button>2</button> <button>3</button> <button>4</button>. . . .
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="foot_boxes">
+            <div class="text_box">
+                <h4 class="text">Sign up for our newsletter</h4>
+                <p class="pargraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Aliquid explicabo
+                    fugiat debitis.</p>
+                <p class="input">
+                    <input id="homeSign" type="email" placeholder="Email Address">
+                    <input type="submit" id="Submit" placeholder="SignUp">
+                </p>
+            </div>
+        </div>
+
+        <div class="foot_boxes">
+            <ul class="Shop">
+                <li class="heading_shop">Shop</li>
+                <li class="list_items">Women's</li>
+                <li class="list_items">Man's</li>
+                <li class="list_items">Kid's</li>
+                <li class="list_items">Shoes</li>
+                <li class="list_items">Equipment</li>
+                <li class="list_items">Boxes</li>
+                <li class="list_items">Gift Cards</li>
+                <li class="list_items">Sale</li>
+
+            </ul>
+        </div>
+        <div class="foot_boxes">
+            <ul class="Help">
+                <li class="Heading_help">Help</li>
+                <li class="list_items">Help Center</li>
+                <li class="list_items"> Order Status</li>
+                <li class="list_items">Size Cart</li>
+                <li class="list_items">Returns</li>
+                <li class="list_items">Contact Us</li>
+            </ul>
+
+        </div>
+        <div class="foot_boxes">
+            <ul class="AboutUS">
+                <li class="heading_about">About Us</li>
+                <li class="list_items">About Us</li>
+                <li class="list_items">Responsibility</li>
+                <li class="list_items">Technology & Innovation</li>
+                <li class="list_items">Explore Stories</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./Script.js"></script>
+    <script src="./productsData.js"></script>
+</body>
+
+</html>

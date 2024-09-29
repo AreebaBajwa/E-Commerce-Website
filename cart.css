@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Sale{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    height: 40px;
+}
+.call_box{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+.delivery_box{
+    color: white;
+    padding-top: 5px;
+}
+.delivery a{
+    color: white;
+}
+.Sign-out{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    background: black;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.Sign-out:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.Sign-out a{
+    color: white;
+    text-decoration: none;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    max-width: 88vw;
+    justify-content: space-between;
+}
+.bar_box h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 14px;
+    color: rgb(54, 11, 11);
+    margin: 10px;
+    font-size: 27px;
+    font-weight: 800;
+}
+.icon_list{
+    display: flex;
+    margin: 13px;
+    padding: 12px 12px 12px 100%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    gap: 15px;
+    position: relative;
+}
+.icon_list li a{
+    text-decoration: none;
+    color: black;
+}
+.Home-cart{
+    margin: 10px 40px;
+}
+.Home-cart a{
+    text-decoration: none;
+    color: black;
+}
+.Home-cart .cart-option{
+    color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.cartbox{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+}
+.cartboxes{
+    width: 48%;
+    border: black solid;
+}
+.cart-items{
+    padding-left: 15px;
+}
+.cart-heading{
+    font-weight: 400;
+    padding-top: 20px;
+}
+.cart-paragraph{
+    padding-top: 10px;
+    color: darkgrey;
+}
+.item-list{
+    padding-top: 15px;
+    list-style: none;
+    padding: 10px 0px;
+}
+.items{
+    padding-top: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.item-img{
+    width: 100px;
+    height: 100px;
+}
+.quantity{
+    padding-top: 5px;
+}
+.Name{
+    padding-top: 10px;
+    font-weight: 400;
+}
+.Price{
+    padding-top: 10px;
+    color: red;
+}
+.buttons{
+    padding-top: 40px;
+    padding-left: 30px;
+}

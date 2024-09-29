@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Sale{
+    background-color: black;
+    display: flex;
+    height: 40px;
+    gap: 20px;
+}
+.call_box{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+.delivery_box{
+    margin: auto !important;
+    color: white;
+}
+.delivery a{
+    color: white;
+}
+
+.SignUp{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    background: black;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.SignUp:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.SignUp a{
+    color: white;
+    text-decoration: none;
+}
+.Login{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    background: red;
+    margin: 5px;
+    cursor: pointer;
+}
+.Login:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.Login a{
+    color: white;
+    text-decoration: none;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    gap: 10px;
+}
+.bar_box h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    color: rgb(54, 11, 11);
+    margin: 5px;
+    font-size: 27px;
+    font-weight: 800;
+}
+.text_list{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.icon_list{
+    display: flex;
+    gap: 20px;
+    padding: 12px 12px 12px 100%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.text_list li:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+    text-decoration: underline 2px solid red;
+    padding-bottom: 4px;
+}
+.contact_img img{
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+}
+.Home-Product{
+    margin: 20px 0px 10px 30px;
+}
+.Contact-page{
+    color: red;
+}
+.Contact-page a{
+    text-decoration: none;
+    color: black;
+}
+.Contact-Boxes{
+    margin: 30px 100px 30px 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box-text{
+    width: 40%;
+    margin: 20px;
+}
+.contact-heading{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: xx-large;
+}
+.contact-paragraph{
+    margin-bottom: 15px;
+}
+.box-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.box-list .location{
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.box-list .location span{
+    color: red;
+    margin: 0px 3px;
+}
+.box-list .email{
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.box-list .email span{
+    color: red;
+    margin: 0px 3px;
+}
+.box-list .phone{
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.box-list .phone span{
+    color: red;
+    margin: 0px 3px;
+}
+.contact-form{
+    border: lightgray 3px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.inputs{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.field{
+    width: 40%;
+}
+label{
+    font-weight: 600;
+}
+input{
+    margin: 10px 0px;
+    padding: 5px 5px;
+    width: 100%;
+}
+.message-label{
+    margin: 20px;
+}
+.message{
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+}
+.button{
+    margin: 1px 20px 20px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: black;
+    width: 90%;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:  rgb(187, 187, 187);
+}
+.foot_boxes{
+    padding: 50px 0px 100px 0px;
+    cursor: pointer;
+}
+.text_box{
+    margin: 40px;
+}
+.text{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 3px;
+}
+.pargraph{
+    padding: 4px;
+    font-weight: 450;
+}
+
+.input{
+    display: flex;
+}
+#homeSign{
+    width: 80%;
+    height: 5vh;
+    border: none;
+    outline: none;
+}
+#Submit{
+    padding: 2px 4px 0px 0px;
+    width: 20%;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+.list_items{
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Shop, .Help{
+    list-style-type: none;
+}
+.Shop:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.Help:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.heading_shop , .Heading_help, .heading_about{
+    color: black;
+    padding: 20px 0px 20px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.heading_shop:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.Heading_help{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+
+.AboutUS{
+    list-style-type: none;
+    padding: 0px 20px 0px 0px;
+}
+.AboutUS:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}

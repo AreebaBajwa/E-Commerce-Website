@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+    <div class="Sale">
+        <div class="Sale_box call_box">
+            <span class="material-icons-outlined">
+                call
+            </span>
+            <span>
+                +92 065789
+            </span>
+        </div>
+
+        <div class="Sale_box delivery_box">
+            <p class="delivery">Free Delivery on order above <a href="#">4000</a></p>
+        </div>
+
+        <div class="Sale_box">
+            <button class="Sign-out"><a href="./Index.html">Sign Out</a></button>
+        </div>
+    </div>
+
+    <div class="NavBar">
+
+        <div class="bar_box">
+            <h2>Shop360</h2>
+        </div>
+
+        <div class="bar_box">
+            <ul class="icon_list">
+                <li><a href=""><span class="material-icons-outlined">
+                            favorite_border
+                        </span></a></li>
+                <li><a href=""><span class="material-icons-outlined">
+                            account_circle
+                        </span></a></li>
+                <li><a href="">
+                        <span class="material-icons-outlined">
+                            shopping_cartd
+                        </span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Home-cart">
+        <p class="cart-option"><a href="./homepage.html">Home</a> /Cart</p>
+    </div>
+
+    <div class="cartbox">
+        <div class="cartboxes cart-items">
+            <h2 class="cart-heading">Your Cart</h2>
+            <p class="cart-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, magnam</p>
+            <ul class="item-list">
+                <li class="items">
+                    <div class="row g-0 bg-body-secondary position-relative">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                          <img src="" class="w-100" alt="...">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                          <h5 class="mt-0">Columns with stretched link</h5>
+                          <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                          <a href="#" class="stretched-link">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </li>
+            </ul>
+
+     </div>
+
+     <hr>
+        <!-- <div class="cartboxes">
+
+            <div class="order">
+                <h5>Order Summary</h5>
+            </div>
+        </div> -->
+    </div>
+    <script>
+        const renderCartItems = () => {
+            let itemsInCart = localStorage.getItem('cart-items') ? JSON.parse(localStorage.getItem('cart-items')) : []
+            const cartWrapper = document.querySelector('.item-list')
+            cartWrapper.innerHTML = ''
+            let cartHtml = ''
+            itemsInCart.map((item) => {
+                cartHtml += `<li class="items">
+                    <div class="items-box">
+                        <img class="item-img" src="./Images/product1.jpg" alt="error">
+                    </div>
+                    <div class="item-box">
+                        <p class="Name">lorem001</p>
+                        <p class="quantity">Quality: <span>0</span></p>
+                        <p class="Price">Rs.2000</p>
+                    </div>
+                    <div class="buttons">
+                        <span class="material-icons-outlined">
+                            delete
+                        </span>
+                </li>`
+            })
+        }
+    </script>
+</body>
+
+</html>

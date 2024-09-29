@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Sale{
+    background-color: black;
+    display: flex;
+    height: 40px;
+    gap: 20px;
+}
+.call_box{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+.delivery_box{
+    margin: auto !important;
+    color: white;
+}
+.delivery a{
+    color: white;
+}
+
+.Sign-out{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    background: black;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.Sign-out:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.Sign-out a{
+    color: white;
+    text-decoration: none;
+}
+.NavBar{
+    height: 55px;
+    margin: 10px;
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.bar_box h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 14px;
+    color: rgb(54, 11, 11);
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.text_list{
+    display: flex;
+    gap: 10px;
+    margin: 13px;
+    padding: 20px;
+    list-style-type: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.icon_list{
+    display: flex;
+    gap: 20px;
+    margin: 5px;
+    padding: 12px 12px 0px 100%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.Branding{
+    margin: 30px;
+}
+.Branding h1{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.Branding p{
+    text-align: center;
+    color: rgb(189, 182, 182);
+    margin: 5px;
+    font-size: small;
+}
+.Logo{
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_boxes{
+    margin: 30px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo_boxes .box img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.Home-Profile{
+    margin: 20px;
+    padding: 14px;
+}
+.Home-Profile p{
+    color: red;
+    font-weight: 500;
+}
+.Home-Profile p a{
+    color: black;
+    text-decoration: none;
+}
+.form-box{
+    width: 50%;
+    margin: 75px auto;
+}
+h2{
+    margin: 10px 0px;
+}
+.form-text{
+    margin: 0px 0px 15px 0px;
+    color: rgb(109, 106, 106);
+}
+.Form-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+label{
+    font-weight: 500;
+}
+input{
+    padding: 5px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.save{
+    margin-left: 70%;
+    width: 15%;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(163, 161, 161);
+}
+.foot_boxes{
+    padding: 50px 0px 100px 0px;
+    cursor: pointer;
+}
+.text_box{
+    margin: 40px;
+}
+.text{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 3px;
+}
+.pargraph{
+    padding: 4px;
+    font-weight: 450;
+}
+
+.input{
+    display: flex;
+}
+#homeSign{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    outline: none;
+}
+#Submit{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    outline: none;
+    padding-left: 80%;
+}
+.list_items{
+    color: rgb(104, 103, 103);
+    font-weight: 400;
+    cursor: pointer;
+}
+.Shop, .Help{
+    list-style-type: none;
+}
+.Shop:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.Help:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.heading_shop , .Heading_help, .heading_about{
+    color: black;
+    padding: 20px 0px 20px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.heading_shop:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+.Heading_help{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}
+
+.AboutUS{
+    list-style-type: none;
+    padding: 0px 20px 0px 0px;
+}
+.AboutUS:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: black;
+}

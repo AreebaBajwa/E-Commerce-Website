@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    
+    <div class="signup">
+
+        <div class="sign_boxes">
+            <img src="./Images/Jewels.png" alt="error">
+        </div>
+        <div class="sign_boxes">
+            <h2>Create an account</h2>
+                <form action="form">
+                    <div class="form-container">
+                    <div class="container">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="Firstname" id="firstname" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="country">Country:</label>
+                        <input type="text" name="country" id="country" required>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    
+                    <div class="container">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                        <label for="phoneno">Phone No:</label>
+                        <input type="number" name="phone-no" id="phone-no" required>
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city" required>
+                        <label for="confirmpassword">Re-type Password</label>
+                        <input type="password" name="password" id="confirmpassword" required>
+                    </div>
+                    </div>
+                    <button onclick="SignUp()" type="submit"><a>Sign Up</a></button>
+                </form>
+        </div>
+    </div>
+
+    <script src="./Script.js"></script>
+</body>
+</html>

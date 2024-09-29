@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./addproduct.css">
+</head>
+<body>
+
+    <div class="Sale">
+        <div class="Sale_box call_box">
+        <span class="material-icons-outlined">
+            call
+        </span>
+        <span>
+            +92 065789
+        </span>
+        </div>
+    
+        <div class="Sale_box delivery_box">
+        <p class="delivery">Free Delivery on order above <a href="#">4000</a></p>
+        </div>
+    
+        <div class="Sale_box">
+        <button class="Sign-out"><a href="./Index.html">Sign Out</a></button>
+        </div>
+    </div>
+
+    <div class="NavBar">
+    
+        <div class="bar_box">
+            <h2 class="logo-heading">Shop360</h2>
+        </div>
+    
+        <div class="bar_box">
+            <ul class="text_list">
+                <li><a href="./homepage.html">Home</a></li>
+                <li><a href="./products.html">My Product</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    
+        <div class="bar_box">
+            <ul class="icon_list">
+                <li><a href=""><span class="material-icons-outlined">
+                    shopping_cart
+                    </span></a></li>
+                <li><a href=""><span class="material-icons-outlined">
+                    favorite_border
+                    </span></a></li>
+                <li><a href="./Login.html"><span class="material-icons-outlined">
+                    account_circle
+                    </span></a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+    <div class="Index-box">
+        <p class="Index-paragraph"><a href="./homepage.html">Home</a><a href="./products.html"> / Products</a> / Add new product</p>
+
+    </div>
+
+    <div class="form-box">
+        <form action="#">
+
+            <h3 class="New-product">Add New Product</h3>
+            <p class="details">Enter the details below</p>
+            <div class="box1">
+                <div class="product-field">
+                    <label for="">Product Name</label> <br>
+                    <input type="text" id="product-name">
+                </div>
+                <div class="product-field">
+                    <label for="">Categories</label> <br>
+                    <select name="" id="categories">
+                        <option value="">select</option>
+                        <option value="Mens">Men's</option>
+                        <option value="women">Women</option>
+                        <option value="kids">Kids</option>
+                    </select>
+                </div>
+
+            </div>
+            <label for="">About Product (Short-description)</label>
+            <input id="Short-description" type="text">
+            <div class="box2">
+                <div class="quantity">
+                    <label for="">quantity</label>
+                    <input type="number" name="" id="quantity" placeholder="00">
+                </div>
+                <div class="quantity">
+                    <label for="">Price</label>
+                    <input type="number" id="Price">
+                </div>
+            </div>
+            <label for="">Detail Description</label>
+            <input class="detail-description" type="text">
+            <label>Upload Image:</label>
+            <input type="image" type="submit">
+            <button type="submit" class="Add-button">
+                Add Product
+            </button>
+        </form>
+
+    </div>
+</body>
+</html>  
